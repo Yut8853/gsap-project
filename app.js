@@ -1,7 +1,3 @@
-import { gsap } from "gsap";
-    
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 gsap.to(".box1,.box2", {
     x:400,
     rotation:360,
