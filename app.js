@@ -13,6 +13,8 @@ gsap.to(".box1,.box2", {
     rotation:360,
     background:'yellow',
     duration:3,
-    stagger:1,
+    stagger:{
+        each:1,
+    },
     delay:4
   });
